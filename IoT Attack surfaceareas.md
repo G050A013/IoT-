@@ -3,7 +3,7 @@
 
 參考資料: [連網設備激增，威脅將無所不在](https://www.ithome.com.tw/news/114126)
 
-# Ecosystem Access Control 生態系統訪問控制
+## Ecosystem Access Control 生態系統訪問控制
 •Implicit trust between components
 
 •	Enrollment security
@@ -12,7 +12,7 @@
 
 •	Lost access procedures
 
-# Device Memory 設備的記憶體
+## Device Memory 設備的記憶體
 •	Cleartext usernames
 
 •	Cleartext passwords
@@ -21,7 +21,7 @@
 
 •	Encryption keys
 
-# Device Physical Interfaces 設備實體存取介面
+## Device Physical Interfaces 設備實體存取介面
 •	Firmware extraction
 
 •	User CLI
@@ -34,7 +34,7 @@
 
 •	Removal of storage media
 
-# Device Web Interface 設備的網頁介面
+## Device Web Interface 設備的網頁介面
 •	SQL injection
 
 •	Cross-site scripting
@@ -49,7 +49,7 @@
 
 •	Known default credentials
 
-# Device Firmware 設備的韌體
+## Device Firmware 設備的韌體
 •	Hardcoded credentials
 
 •	Sensitive information disclosure
@@ -60,7 +60,7 @@
 
 •	Firmware version display and/or last update date
 
-# Device Network Services 設備的網路服務
+## Device Network Services 設備的網路服務
 •	Information disclosure
 
 •	User CLI
@@ -85,7 +85,7 @@
 
 •	DoS
 
-# Administrative Interface 管理介面
+## Administrative Interface 管理介面
 •	SQL injection
 
 •	Cross-site scripting
@@ -108,14 +108,14 @@
 
 •	Inability to wipe device
 
-# Local Data Storage 本地資料存取
+## Local Data Storage 本地資料存取
 •	Unencrypted data
 
 •	Data encrypted with discovered keys
 
 •	Lack of data integrity checks
 
-# Cloud Web Interface 雲端網頁介面
+## Cloud Web Interface 雲端網頁介面
 •	SQL injection
 
 •	Cross-site scripting
@@ -136,7 +136,7 @@
 
 •	Two-factor authentication
 
-# Third-party Backend APIs 第三方的後端API
+## Third-party Backend APIs 第三方的後端API
 •	Unencrypted PII sent
 
 •	Encrypted PII sent
@@ -145,7 +145,7 @@
 
 •	Location leaked
 
-# Update Mechanism 更新機制
+## Update Mechanism 更新機制
 •	Update sent without encryption
 
 •	Updates not signed
@@ -160,7 +160,7 @@
 
 •	No manual update mechanism
 
-# Mobile Application 行動裝置的應用程式
+## Mobile Application 行動裝置的應用程式
 •	Implicitly trusted by device or cloud
 
 •	Username enumeration
@@ -179,7 +179,7 @@
 
 •	Two-factor authentication
 
-# Vendor Backend APIs 供應商後端API
+## Vendor Backend APIs 供應商後端API
 •	Inherent trust of cloud or mobile application
 
 •	Weak authentication
@@ -188,7 +188,7 @@
 
 •	Injection attacks
 
-# Ecosystem Communication 生物系統的通訊
+## Ecosystem Communication 生物系統的通訊
 •	Health checks
 
 •	Heartbeats
@@ -199,7 +199,7 @@
 
 •	Pushing updates
 
-# Network Traffic 網路流量
+## Network Traffic 網路流量
 •	LAN
 
 •	LAN to Internet
